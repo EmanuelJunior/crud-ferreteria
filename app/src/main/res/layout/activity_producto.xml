@@ -1,0 +1,42 @@
+<!-- res/layout/producto/activity_producto.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Producto"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Agrega los EditText necesarios para la entidad "Producto" -->
+    <EditText
+        android:id="@+id/editDescripcionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editValorProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Valor" />
+
+    <!-- Agrega más campos según la entidad "Producto" -->
+
+    <Button
+        android:id="@+id/btnInsertarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar Registro" />
+
+    <Button
+        android:id="@+id/btnVolverOperacionesProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Operaciones de Producto" />
+</LinearLayout>

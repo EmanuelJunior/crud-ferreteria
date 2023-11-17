@@ -1,0 +1,74 @@
+<!-- res/layout/pedido/activity_actualizar_pedido.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Pedido"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Agrega los EditText necesarios para la entidad "Pedido" -->
+    <EditText
+        android:id="@+id/editDescripcionActualizarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editFechaActualizarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha" />
+
+    <EditText
+        android:id="@+id/editCantidadActualizarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad" />
+
+    <TextView
+        android:id="@+id/textViewNombreCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Cliente:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewTelefonoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono del Cliente:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Agrega más campos según la entidad "Pedido" -->
+
+    <!-- Agrega un botón para seleccionar un cliente -->
+    <Button
+        android:id="@+id/btnSeleccionarClienteActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Cliente" />
+
+    <Button
+        android:id="@+id/btnGuardarActualizacionPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Actualización" />
+
+    <Button
+        android:id="@+id/btnCancelarActualizacionPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar Actualización" />
+</LinearLayout>

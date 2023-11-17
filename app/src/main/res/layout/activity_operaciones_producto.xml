@@ -1,0 +1,45 @@
+<!-- res/layout/producto/activity_operaciones_productos.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operaciones de Producto"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnInsertarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar Producto" />
+
+    <Button
+        android:id="@+id/btnActualizarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Producto" />
+
+    <Button
+        android:id="@+id/btnMostrarProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Productos" />
+
+    <Button
+        android:id="@+id/btnEliminarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Producto" />
+
+    <Button
+        android:id="@+id/btnVolverMenuDesdeProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú Principal" />
+</LinearLayout>

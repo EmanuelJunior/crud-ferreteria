@@ -1,0 +1,28 @@
+<!-- res/layout/activity_lista_eliminar_clientes.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Clientes"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/listaEliminarClientes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnVolverOperacionesDesdeEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Operaciones de Cliente" />
+</LinearLayout>

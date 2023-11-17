@@ -1,0 +1,73 @@
+<!-- res/layout/pedido/activity_pedido.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Pedido"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Agrega los EditText necesarios para la entidad "Pedido" -->
+    <EditText
+        android:id="@+id/editDescripcionPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editFechaPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha" />
+
+    <EditText
+        android:id="@+id/editCantidadPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad" />
+
+    <!-- Agrega más campos según la entidad "Pedido" -->
+
+    <TextView
+        android:id="@+id/textViewNombreCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Cliente:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewTelefonoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono del Cliente:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Agrega un botón para seleccionar un cliente -->
+    <Button
+        android:id="@+id/btnSeleccionarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Cliente" />
+
+    <Button
+        android:id="@+id/btnInsertarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar Registro" />
+
+    <Button
+        android:id="@+id/btnVolverOperacionesPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Operaciones de Pedido" />
+</LinearLayout>

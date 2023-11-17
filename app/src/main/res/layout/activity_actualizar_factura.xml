@@ -1,0 +1,82 @@
+<!-- res/layout/factura/activity_actualizar_factura.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Factura"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Agrega los EditText necesarios para la entidad "Factura" -->
+    <EditText
+        android:id="@+id/editNumeroActualizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número" />
+
+    <EditText
+        android:id="@+id/editFechaActualizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha" />
+
+    <EditText
+        android:id="@+id/editTotalActualizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total" />
+
+    <!-- Agrega más campos según la entidad "Factura" -->
+
+    <TextView
+        android:id="@+id/textViewDescripcionPedidoActualizarFactura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewFechaPedidoActualizarFactura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewCantidadPedidoActualizarFactura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnSeleccionarPedidoActualizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Pedido" />
+
+    <Button
+        android:id="@+id/btnGuardarActualizacionFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Actualización" />
+
+    <Button
+        android:id="@+id/btnCancelarActualizacionFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar Actualización" />
+</LinearLayout>

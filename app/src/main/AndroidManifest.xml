@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRUD_FERRETERIA_v2"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividades de Cliente -->
+
+        <!-- Views/Cliente -->
+        <activity android:name=".views.cliente.ClienteActivity" />
+        <activity android:name=".views.cliente.ClienteActualizarActivity" />
+        <activity android:name=".views.cliente.ClienteEliminarActivity" />
+        <activity android:name=".views.cliente.ClienteOperacionesActivity" />
+        <activity android:name=".views.cliente.ClienteRenderizarEliminarActivity" />
+        <activity android:name=".views.cliente.ClientesListarActivity" />
+        <activity android:name=".views.cliente.ClientesListarActualizarActivity" />
+        <activity android:name=".views.cliente.ClientesListarEliminarActivity" />
+
+        <!-- Actividades de Pedido -->
+
+        <!-- Views/Pedido -->
+        <activity android:name=".views.pedido.PedidoActivity" />
+        <activity android:name=".views.pedido.PedidoActualizarActivity" />
+        <activity android:name=".views.pedido.PedidoEliminarActivity" />
+        <activity android:name=".views.pedido.PedidoOperacionesActivity" />
+        <activity android:name=".views.pedido.PedidoRenderizarEliminarActivity" />
+        <activity android:name=".views.pedido.PedidosListarActivity" />
+        <activity android:name=".views.pedido.PedidosListarActualizarActivity" />
+        <activity android:name=".views.pedido.PedidosListarEliminarActivity" />
+
+        <!-- Actividades de Producto -->
+
+        <!-- Views/Producto -->
+        <activity android:name=".views.producto.ProductoActivity" />
+        <activity android:name=".views.producto.ProductoActualizarActivity" />
+        <activity android:name=".views.producto.ProductoEliminarActivity" />
+        <activity android:name=".views.producto.ProductoOperacionesActivity" />
+        <activity android:name=".views.producto.ProductoRenderizarEliminarActivity" />
+        <activity android:name=".views.producto.ProductosListarActivity" />
+        <activity android:name=".views.producto.ProductosListarActualizarActivity" />
+        <activity android:name=".views.producto.ProductosListarEliminarActivity" />
+
+        <!-- Actividades de Factura -->
+
+        <!-- Views/Factura -->
+        <activity android:name=".views.factura.FacturaActivity" />
+        <activity android:name=".views.factura.FacturaActualizarActivity" />
+        <activity android:name=".views.factura.FacturaEliminarActivity" />
+        <activity android:name=".views.factura.FacturaOperacionesActivity" />
+        <activity android:name=".views.factura.FacturaRenderizarEliminarActivity" />
+        <activity android:name=".views.factura.FacturasListarActivity" />
+        <activity android:name=".views.factura.FacturasListarActualizarActivity" />
+        <activity android:name=".views.factura.FacturasListarEliminarActivity" />
+
+    </application>
+
+</manifest>

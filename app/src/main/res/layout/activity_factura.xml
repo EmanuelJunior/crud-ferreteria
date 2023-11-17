@@ -1,0 +1,82 @@
+<!-- res/layout/factura/activity_factura.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Factura"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Agrega los EditText necesarios para la entidad "Factura" -->
+    <EditText
+        android:id="@+id/editNumeroFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número" />
+
+    <EditText
+        android:id="@+id/editFechaFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha" />
+
+    <EditText
+        android:id="@+id/editTotalFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total" />
+
+    <TextView
+        android:id="@+id/textViewDescripcionPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewFechaPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha del Pedido: "
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewCantidadPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Agrega más campos según la entidad "Factura" -->
+
+    <!-- Agrega un botón para seleccionar un cliente -->
+    <Button
+        android:id="@+id/btnSeleccionarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Pedido" />
+
+    <Button
+        android:id="@+id/btnInsertarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar Registro" />
+
+    <Button
+        android:id="@+id/btnVolverOperacionesFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Operaciones de Factura" />
+</LinearLayout>

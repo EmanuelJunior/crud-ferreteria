@@ -1,0 +1,43 @@
+<!-- res/layout/producto/activity_actualizar_producto.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Producto"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Agrega los EditText necesarios para la entidad "Producto" -->
+    <EditText
+        android:id="@+id/editDescripcionActualizarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editValorActualizarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Valor" />
+
+    <!-- Agrega más campos según la entidad "Producto" -->
+
+    <Button
+        android:id="@+id/btnGuardarActualizacionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Actualización" />
+
+    <Button
+        android:id="@+id/btnCancelarActualizacionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar Actualización" />
+</LinearLayout>

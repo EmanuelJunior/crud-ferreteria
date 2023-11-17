@@ -1,0 +1,52 @@
+<!-- res/layout/activity_renderizar_eliminar_cliente.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles del Cliente"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/txtCedulaRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cédula: " />
+
+    <TextView
+        android:id="@+id/txtNombreRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre: " />
+
+    <TextView
+        android:id="@+id/txtDireccionRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección: " />
+
+    <TextView
+        android:id="@+id/txtTelefonoRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Teléfono: " />
+
+    <Button
+        android:id="@+id/btnEliminarClienteRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Este Cliente" />
+
+    <Button
+        android:id="@+id/btnVolverListaEliminarClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Lista de Eliminar Clientes" />
+</LinearLayout>

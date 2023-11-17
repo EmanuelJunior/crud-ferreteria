@@ -1,0 +1,40 @@
+<!-- res/layout/producto/activity_renderizar_eliminar_productos.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles del Producto"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/txtDescripcionRenderizarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción: " />
+
+    <TextView
+        android:id="@+id/txtValorRenderizarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Valor: " />
+
+    <Button
+        android:id="@+id/btnEliminarProductoRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Este Producto" />
+
+    <Button
+        android:id="@+id/btnVolverListaEliminarProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Lista de Eliminar Productos" />
+</LinearLayout>

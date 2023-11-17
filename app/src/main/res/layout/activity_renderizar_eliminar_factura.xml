@@ -1,0 +1,91 @@
+<!-- res/layout/factura/activity_renderizar_eliminar_facturas.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles de la Factura"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/txtNumeroRenderizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número: " />
+
+    <TextView
+        android:id="@+id/txtFechaRenderizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha: " />
+
+    <TextView
+        android:id="@+id/txtTotalRenderizarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: " />
+
+    <TextView
+        android:id="@+id/textViewDescripcionPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewFechaPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewCantidadPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad del Pedido:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewNombreCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Cliente:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewTelefonoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono del Cliente:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnEliminarFacturaRenderizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Esta Factura" />
+
+    <Button
+        android:id="@+id/btnVolverListaEliminarFacturas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Lista de Eliminar Facturas" />
+</LinearLayout>
