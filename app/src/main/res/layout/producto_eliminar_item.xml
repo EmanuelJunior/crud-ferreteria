@@ -1,0 +1,21 @@
+<!-- res/layout/producto/producto_eliminar_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtProductoDescripcionEliminar"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Descripción del Producto"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnEliminarProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar" />
+</LinearLayout>

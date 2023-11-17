@@ -1,0 +1,21 @@
+<!-- res/layout/factura/factura_actualizar_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtFacturaNumero"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Número de Factura"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnActualizarFactura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+</LinearLayout>

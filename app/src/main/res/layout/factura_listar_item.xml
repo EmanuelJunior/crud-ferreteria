@@ -1,0 +1,25 @@
+<!-- res/layout/factura/factura_listar_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtNumeroListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Factura" />
+
+    <TextView
+        android:id="@+id/txtFechaListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de la Factura" />
+
+    <TextView
+        android:id="@+id/txtTotalListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de la Factura" />
+</LinearLayout>

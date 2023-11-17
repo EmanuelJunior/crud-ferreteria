@@ -1,0 +1,31 @@
+<!-- res/layout/cliente_listar_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtCedulaListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cédula: " />
+
+    <TextView
+        android:id="@+id/txtNombreListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre: " />
+
+    <TextView
+        android:id="@+id/txtDireccionListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección: " />
+
+    <TextView
+        android:id="@+id/txtTelefonoListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: " />
+</LinearLayout>

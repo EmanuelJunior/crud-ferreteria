@@ -1,0 +1,25 @@
+<!-- res/layout/pedido/pedido_listar_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtDescripcionListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción del Pedido" />
+
+    <TextView
+        android:id="@+id/txtFechaListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha del Pedido" />
+
+    <TextView
+        android:id="@+id/txtCantidadListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad del Pedido" />
+</LinearLayout>
